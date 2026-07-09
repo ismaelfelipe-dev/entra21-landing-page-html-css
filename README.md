@@ -1,2 +1,23 @@
-# entra21-landing-page-html-css
-Repositório dedicado aos estudos de desenvolvimento web com HTML e CSS no Entra21, contendo uma landing page desenvolvida durante a ementa para praticar estruturação, estilização e responsividade.
+# 🚀 Entra21 - HTML e CSS
+
+Landing Page desenvolvida utilizando HTML e CSS, com foco em estrutura semântica, responsividade e boas práticas de desenvolvimento web.
+
+## 📚 Conceitos Utilizados
+
+- HTML
+- CSS
+- Flexbox
+- Responsividade
+- Organização de arquivos
+- Boas práticas de estilização
+
+## 🛠️ Tecnologias
+
+- HTML5
+- CSS3
+- Git
+- GitHub
+
+## 👨‍💻 Autor
+
+Desenvolvido por Ismael.
