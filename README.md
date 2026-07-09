@@ -2,6 +2,8 @@
 
 Landing Page desenvolvida utilizando HTML e CSS, com foco em estrutura semântica, responsividade e boas práticas de desenvolvimento web.
 
+---
+
 ## 📚 Conceitos Utilizados
 
 - HTML
@@ -11,12 +13,16 @@ Landing Page desenvolvida utilizando HTML e CSS, com foco em estrutura semântic
 - Organização de arquivos
 - Boas práticas de estilização
 
+---
+
 ## 🛠️ Tecnologias
 
 - HTML5
 - CSS3
 - Git
 - GitHub
+
+---
 
 ## 👨‍💻 Autor
 
