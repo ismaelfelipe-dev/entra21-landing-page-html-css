@@ -158,7 +158,14 @@ body {
   border-radius: 10px;
   padding: 1.5rem;
   text-align: center;
-  box-shadow: 0px 2px 6px rgb(0, 0, 0, 0.08);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  will-change: transform;
+}
+
+.card:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
 .card_titulo {
