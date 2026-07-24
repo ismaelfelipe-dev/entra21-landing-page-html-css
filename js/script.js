@@ -54,8 +54,8 @@ function saudar(nome) {
 }
 console.log(saudar(nome));
 
-const preco = document.querySelectorAll(".card_preco");
-preco.forEach(
+const precoTeste = document.querySelectorAll(".card_preco");
+precoTeste.forEach(
   (element) => (element.textContent = formataPreco(element.innerHTML)),
 );
 
@@ -103,3 +103,41 @@ console.log(`\n${precos[4]}\n\n`);
 for (const preco of precos) {
     console.log(`\n${preco}\n\n`);
 }
+
+const cardapioTeste = [
+  {nome: "Expresso", preco: 7},
+  {nome: "Cappuccino", preco: 12},
+  {nome: "Pao na chapa", preco: 8},
+];
+const nomes = cardapioTeste.map((item) => item.nome);
+console.log(nomes);
+
+const precoBaixo = cardapioTeste.filter((item) => item.preco < 10);
+console.log(precoBaixo);
+
+const acharItem = cardapioTeste.find((item) => item.nome === "Cappuccino");
+console.log(acharItem);
+
+const somarPrecos = cardapioTeste.reduce((acumulador, item) => acumulador + item.preco, 0)
+console.log(somarPrecos);
+
+const cardapio = [
+  {nome: "Espresso", descricao: "Café curto e intenso, com crema aveludada.", preco: 7.00},
+  {nome: "Cappuccino", descricao: "Espresso, leite vaporizado e espuma cremosa.", preco: 12.00},
+  {nome: "Pão na chapa", descricao: "Pão artesanal na manteiga, quentinho.", preco: 8.00},
+  {nome: "Bolo do dia", descricao: "Fatia generosa feita na nossa cozinha.", preco: 10.00},
+];
+
+const titular = document.querySelectorAll(".card_titulo");
+const descricao = document.querySelectorAll(".card_descricao");
+const preco = document.querySelectorAll(".card_preco");
+
+const heroTitulo = document.querySelector(".hero_titulo");
+heroTitulo.textContent = "Mais que café, uma experiência em cada xícara.";
+
+const menu = document.querySelectorAll(".menu_lista a");
+console.log(menu.length);
+
+const cardAddClass = document.querySelector("article");
+cardAddClass.classList.add("Espresso")
+
